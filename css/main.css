@@ -598,4 +598,54 @@ header nav ul li a:hover {
 .s-card-neon .right-area .box-card .image {
   margin-right: -3.1rem;
 }
+
+.s-depoimentos {
+  padding-top: 13.4rem;
+}
+
+.s-depoimentos .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.s-depoimentos .top h2 span {
+  display: block;
+  color: #C6C5CE;
+  margin-bottom: 1.4rem;
+}
+
+.s-depoimentos .top .swiper-pagination {
+  position: relative;
+  width: auto;
+}
+
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet {
+  background: #FFC800;
+  opacity: 0.3;
+  border-radius: 12px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet-active {
+  width: 17.23px;
+  background: #FFC800;
+  opacity: 1;
+}
+
+.s-depoimentos .slide-depoimentos {
+  overflow: hidden;
+}
 /*# sourceMappingURL=main.css.map */
