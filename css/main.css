@@ -464,6 +464,114 @@ footer .msg p {
   opacity: 0.8;
 }
 
+@media (max-width: 1050px) {
+  footer .main nav {
+    max-width: 76rem;
+  }
+}
+
+@media (max-width: 991px) {
+  footer .main {
+    width: 100%;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 3.6rem;
+  }
+  footer .main nav {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  footer .main nav .item {
+    width: 33%;
+    margin-bottom: 5rem;
+  }
+  footer .main .btns {
+    position: absolute;
+    bottom: 14rem;
+    right: 0;
+  }
+  footer .msg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .msg p {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .main {
+    margin-bottom: 3rem;
+  }
+  footer .main .btns {
+    max-width: 25rem;
+  }
+  footer .main .btns a img {
+    display: none;
+  }
+  footer .main .btns a .info {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .top {
+    padding-bottom: 4.3rem;
+    margin-bottom: 5.2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .top .share {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 3.2rem;
+  }
+  footer .top .share ul {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  footer .main nav .item {
+    width: 50%;
+    margin-bottom: 5.3rem;
+  }
+  footer .main .btns {
+    bottom: 0;
+    position: relative;
+    max-width: 100%;
+  }
+  footer .main .btns a {
+    padding-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .main .btns a .info strong,
+  footer .main .btns a .info span {
+    text-align: center;
+  }
+}
+
 .s-hero {
   width: 100%;
   height: 78.6rem;
