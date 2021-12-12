@@ -1392,4 +1392,124 @@ footer .msg p {
   bottom: 0;
   right: 0;
 }
+
+@media (max-width: 1200px) {
+  .s-conta-digital .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s-conta-digital .image {
+    margin-right: 0;
+    left: 0;
+    margin-top: 5rem;
+  }
+  .s-conta-digital .text {
+    max-width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s-conta-digital .text h2 {
+    text-align: center;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .s-conta-digital {
+    padding-top: 8.6rem;
+    padding-bottom: 8.1rem;
+  }
+  .s-conta-digital .text {
+    max-width: 100%;
+  }
+  .s-conta-digital .image {
+    max-width: 58.2rem;
+    height: 63.3rem;
+  }
+  .s-conta-digital .image img.circle {
+    width: 100%;
+  }
+  .s-conta-digital .image img.mockup-01 {
+    z-index: 2;
+  }
+  .s-conta-digital .image img.mockup-02 {
+    z-index: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .s-conta-digital {
+    padding-top: 5.7rem;
+    padding-bottom: 7.2rem;
+  }
+  .s-conta-digital .text {
+    max-width: 100%;
+  }
+  .s-conta-digital .text h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 3.9rem;
+  }
+  .s-conta-digital .text h2 span {
+    font-size: 2.4rem;
+  }
+  .s-conta-digital .text ul {
+    margin-bottom: 4.4rem;
+  }
+  .s-conta-digital .text ul li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s-conta-digital .text ul li:not(:last-child) {
+    margin-bottom: 5.6rem;
+  }
+  .s-conta-digital .text ul li .icon {
+    margin-right: 0;
+    margin-bottom: 1.6rem;
+  }
+  .s-conta-digital .text ul li .info h4 {
+    max-width: 29rem;
+    text-align: center;
+  }
+  .s-conta-digital .text ul li .info p {
+    font-size: 1.4rem;
+    text-align: center;
+    max-width: 21rem;
+    margin: 0 auto;
+  }
+  .s-conta-digital .image {
+    max-width: 35.7rem;
+    height: 46.9rem;
+  }
+  .s-conta-digital .image img.mockup-01, .s-conta-digital .image img.mockup-02 {
+    max-width: 16.8rem;
+  }
+  .s-conta-digital .image img.mockup-01 {
+    bottom: initial;
+    top: 5.8rem;
+  }
+  .s-conta-digital .image img.mockup-02 {
+    right: 0;
+    top: 0;
+    left: initial;
+  }
+}
 /*# sourceMappingURL=main.css.map */
